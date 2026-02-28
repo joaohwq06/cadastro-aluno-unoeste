@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Aluno</h1>
+
+        <form action="/cadastro" method="POST">
+
+            <div class="input-group">
+                <label>Nome</label>
+                <input type="text" name="nome" required>
+            </div>
+
+            <div class="input-group">
+                <label>Idade</label>
+                <input type="number" name="idade" required>
+            </div>
+
+            <div class="input-group">
+                <label>Curso</label>
+                <input type="text" name="curso" required>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
